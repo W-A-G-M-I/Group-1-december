@@ -19,11 +19,6 @@ function App() {
         <ContactUsPage/>
         <ServiceUsPage/>
         <ChatBot />
-        {/* <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/about" element={<AboutUsPage />} />
-          <Route path="/contact" element={<ContactUsPage />} />
-        </Routes>
         <Footer />
       </div>
     </Router>
