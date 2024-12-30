@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+// import bgImage from "../assets/background-image.jpg"
 
 const LandingPage = () => {
 
@@ -47,43 +48,29 @@ const LandingPage = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="bg-gray-50">
+=======
+    <div className="">
+      {/* Header */}
+>>>>>>> 98d1275a7c899be52cb90e32e8dffafbb0be6685
       
 
       {/* Hero Section */}
-      <section className="hero bg-gradient-to-r from-blue-800 to-blue-600 text-white text-center py-20 px-4 clip-path-polygon">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Phantom</h1>
-        <p className="text-xl mb-6">Your trusted partner in [business/service]</p>
+      <section className=" bg-[url('/assets/background-image.jpg')] bg-center bg-cover bg-no-repeat text-black text-center w-full h-screen">
+        <div className="pt-48">
+        <h1 className="text-6xl text-white font-bold  mb-4">Welcome to Phantom</h1>
+        <p className="text-2xl text-white mb-16">Your trusted partner in [business/service]</p>
         <button
           className="bg-yellow-400 text-gray-800 px-8 py-3 font-semibold rounded-lg transition-all duration-300 hover:bg-yellow-500"
           onClick={() => scrollToSection('services')}
         >
           Learn More
         </button>
-      </section>
-
-      {/* Services Section */}
-      <section id="services" className="services max-w-screen-xl mx-auto py-16 px-4 text-center">
-        <h2 className="text-3xl font-bold text-blue-600 mb-8">Our Services</h2>
-        <div className="flex flex-wrap justify-center gap-8">
-          <div className="service-item bg-white p-8 rounded-lg shadow-md transition-transform duration-300 hover:transform hover:translate-y-4">
-            <img src="./assets/profile pic-png.png" alt="Service 1" className="w-32 h-32 mb-6 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-4">Service One</h3>
-            <p className="text-lg text-gray-600">Here in HELIX, we have the best visual brand designers.</p>
-          </div>
-          <div className="service-item bg-white p-8 rounded-lg shadow-md transition-transform duration-300 hover:transform hover:translate-y-4">
-            <img src="./assets/WhatsApp Image 2024-12-27 at 01.26.45_ceb677fb.jpg" alt="Service 2" className="w-32 h-32 mb-6 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-4">Service Two</h3>
-            <p className="text-lg text-gray-600">Description of the second service offered by Phantom.</p>
-          </div>
-          <div className="service-item bg-white p-8 rounded-lg shadow-md transition-transform duration-300 hover:transform hover:translate-y-4">
-            <img src="./assets/WhatsApp Image 2024-12-27 at 01.26.46_552352b3.jpg" alt="Service 3" className="w-32 h-32 mb-6 mx-auto" />
-            <h3 className="text-2xl font-semibold mb-4">Service Three</h3>
-            <p className="text-lg text-gray-600">Description of the third service offered by Phantom.</p>
-          </div>
         </div>
       </section>
 
+<<<<<<< HEAD
      
        {/* Chatbot */}
        <div
@@ -160,6 +147,8 @@ const LandingPage = () => {
         </div>
         <p className="text-center mt-6">&copy; 2024 Phantom. All rights reserved.</p>
       </footer>
+=======
+>>>>>>> 98d1275a7c899be52cb90e32e8dffafbb0be6685
     </div>
   );
 };

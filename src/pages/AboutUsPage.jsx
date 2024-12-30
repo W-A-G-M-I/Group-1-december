@@ -1,9 +1,12 @@
-import React from 'react';
+// import React from 'react';
+import John from "../assets/william.jpg"
+import Jane from "../assets/sophia.jpg"
+import Melinda from "../assets/melinda.jpg"
 
 const AboutUsPage = () => {
   return (
     <div>
-      <section className="bg-blue-100 py-8 text-center">
+      <section className="py-8 text-center">
         <h1 className="text-4xl font-semibold mb-4">About Us</h1>
         <p className="text-lg max-w-2xl mx-auto">
           We are a company dedicated to providing the best service. Our mission is to help you achieve your goals with top-notch service and support.
@@ -12,35 +15,23 @@ const AboutUsPage = () => {
 
       <section className="py-8 text-center">
         <h2 className="text-3xl font-semibold mb-4">Meet Our Team</h2>
-        <div className="flex justify-center gap-8 flex-wrap">
+        <div className="flex justify-center gap-8 flex-wrap ">
           <div className="bg-white border border-gray-300 rounded-lg p-4 max-w-xs text-center shadow-lg hover:shadow-xl transition-shadow">
-            <img src="team-member1.jpg" alt="Team Member 1" className="w-24 h-24 rounded-full mx-auto mb-4" />
+            <img src={John} alt="Team Member 1" className="mx-auto mb-4" />
             <h3 className="text-xl font-semibold">John Doe</h3>
-            <p>CEO & Founder</p>
-            <div className="mt-4 hidden group-hover:block">
-              <p>John has over 20 years of experience in the industry and is passionate about innovation.</p>
-              <a href="#" className="text-blue-600">LinkedIn</a>
-            </div>
+            <p className="font-bold">CEO & Founder</p>
           </div>
 
           <div className="bg-white border border-gray-300 rounded-lg p-4 max-w-xs text-center shadow-lg hover:shadow-xl transition-shadow">
-            <img src="team-member2.jpg" alt="Team Member 2" className="w-24 h-24 rounded-full mx-auto mb-4" />
+            <img src={Jane} alt="Team Member 2" className=" mx-auto mb-4" />
             <h3 className="text-xl font-semibold">Jane Smith</h3>
-            <p>Chief Marketing Officer</p>
-            <div className="mt-4 hidden group-hover:block">
-              <p>Jane specializes in brand strategy and customer engagement.</p>
-              <a href="#" className="text-blue-600">LinkedIn</a>
-            </div>
+            <p className="font-bold">Chief Marketing Officer</p>
           </div>
 
           <div className="bg-white border border-gray-300 rounded-lg p-4 max-w-xs text-center shadow-lg hover:shadow-xl transition-shadow">
-            <img src="team-member3.jpg" alt="Team Member 3" className="w-24 h-24 rounded-full mx-auto mb-4" />
-            <h3 className="text-xl font-semibold">Michael Brown</h3>
-            <p>Lead Developer</p>
-            <div className="mt-4 hidden group-hover:block">
-              <p>Michael is a tech enthusiast and has led the development of multiple successful projects.</p>
-              <a href="#" className="text-blue-600">GitHub</a>
-            </div>
+            <img src={Melinda} alt="Team Member 3" className="mx-auto mb-4" />
+            <h3 className="text-xl font-semibold">Melinda Brown</h3>
+            <p className="font-bold">Lead Developer</p>
           </div>
         </div>
       </section>
