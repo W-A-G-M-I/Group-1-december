@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'sans': ['Roboto', 'sans-serif'],
+      },
+      backgroundImage: {
+        'bgImage': "url('/assets/background-image.jpg')",
       }
     },
   },
