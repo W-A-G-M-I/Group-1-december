@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 import ChatBot from './components/Chatbot';
 import ContactUsPage from './pages/ContactUsPage';
 import ServiceUsPage from './pages/ServiceUsPage';
-
 function App() {
   return (
     <Router>
